@@ -6,9 +6,15 @@
         <link rel="stylesheet" href="src/css/style.css">
     </head>
     <body>
-        <div>
-            <button style="float:left"><img src="misc.png" height="20px" width="20px"></button>
-            <h1 style="float:right">RND Forum</h1>
+        <button class="nav-button" type="button" onclick="showNav(this)">
+            <img src="misc.png" height="20px" width="20px" alt="=">
+        </button>
+        <span class="header">
+            <h1 class="title">RND Forum</h1>
+        </span>
+        <div id="list-of-nav">
+            <p>Navigation</p>
         </div>
+        <script src="src/js/index.js"></script>
     </body>
 </html>

@@ -1,8 +1,42 @@
 *
 {
-    color: rgb(215, 215, 215)
+    color: whitesmoke;
 }
 body
 {
-    background-color: rgb(44, 44, 44)
+    background-color: rgb(44, 44, 44);
+    margin: 12px;
+}
+.header
+{
+    display: flex;
+    justify-content: center;
+}
+.nav-button
+{
+    border: none;
+    background-color: rgb(44, 44, 44);
+    padding: 20px 20px;
+    float: left;
+    transition-duration: 0.4s;
+}
+.nav-button:hover
+{
+    background-color: purple;
+    border: 2px solid whitesmoke;
+}
+#list-of-nav
+{
+    display: none;
+    position: absolute;
+    left: 0px;
+    z-index: 1000;
+    background-color: whitesmoke;
+    width: 300px;
+    transition: left 0.3s 0.1s ease-out;
+}
+#list-of-nav *
+{
+    color: rgb(44, 44, 44);
+    text-align: center;
 }
