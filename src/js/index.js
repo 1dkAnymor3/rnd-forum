@@ -7,16 +7,16 @@ function showNav()
     if (navShowCount % 2 == 0)
     {
         nav.style.left = "-300px";
-        nav.style.display = "inline";
         let navLeftPos = nav.offsetLeft;
         nav.style.left = (navLeftPos + 300) + 'px';
     }
     else
     {
-        nav.style.left = "0px"; //problem here?
+        nav.style.left = "0px";
         let navLeftPos = nav.offsetLeft;
-        nav.style.left = (navLeftPos - 150) + 'px';
-        nav.style.display = "none";
+        nav.style.left = (navLeftPos - 300) + 'px';
     }
     navShowCount++;
 }
+
+var page = document.getElementById("page");

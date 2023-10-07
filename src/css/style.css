@@ -27,9 +27,9 @@ body
 }
 #list-of-nav
 {
-    display: none;
+    display: inline;
     position: absolute;
-    left: 0px;
+    left: -300px;
     z-index: 1000;
     background-color: whitesmoke;
     width: 300px;
