@@ -34,9 +34,9 @@ body
     background-color: whitesmoke;
     width: 300px;
     transition: left 0.3s 0.1s ease-out;
+    text-align: center;
 }
 #list-of-nav *
 {
     color: rgb(44, 44, 44);
-    text-align: center;
 }
