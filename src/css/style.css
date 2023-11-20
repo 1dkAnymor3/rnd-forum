@@ -75,3 +75,24 @@ body
     font-size: 20px;
     padding-left: 12px;
 }
+#post-box
+{
+    text-align: center;
+    display: flexbox;
+    justify-content: center;
+}
+#name
+{
+    background-color: darkslategrey;
+    border: 3px solid black;
+}
+#content
+{
+    background-color: darkslategrey;
+    border: 3px solid black;
+}
+#post-button
+{
+    background-color: darkslategrey;
+    border: 3px solid black;
+}
